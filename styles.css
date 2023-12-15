@@ -16,6 +16,8 @@
 
 body{
     background-color: var(--mainBackground);
+    position: relative;
+    height: 100vh;
 }
 .top-circle{
     width: 320px;
