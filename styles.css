@@ -1,0 +1,33 @@
+@font-face {
+    font-family: "Kumbh Sans";
+    src: url(./Kumbh_Sans/KumbhSans-VariableFont_YOPQ\,wght.ttf);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --mainBackground: hsl(185, 75%, 39%);
+    --profiletextDark:  hsl(229, 23%, 23%);
+    --profileTextGray: hsl(0, 0%, 59%);
+    --profileFamily: "Kumbh Sans"
+}
+
+body{
+    background-color: var(--mainBackground);
+}
+.top-circle{
+    width: 320px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translate(-50%, -50%);
+}
+.bottom-circle{
+    width: 320px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    transform: translate(50%, 50%);
+}
